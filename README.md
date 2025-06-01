@@ -59,6 +59,35 @@ Auto-delete safe messages after 3 days
 
 No database used (fully in-memory)
 
-Not
+Notifies admin on violations
 
+
+How to Run
+
+1. Replace your bot token and admin ID in config.py
+
+
+2. Install dependencies:
+
+
+
+pip install -r requirements.txt
+
+3. Run the bot:
+
+
+
+python bot.py
+
+Deploy to Render.com
+
+Build Command:
+
+
+pip install -r requirements.txt
+
+Start Command:
+
+
+python bot.py
 
